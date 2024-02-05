@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testng.AutomationWithTestNG1">
+      <class name="base.GetAPIwithTestng">
         <methods>
-          <include name="automationTestNG"/>
+          <include name="getStatusCode"/>
+          <include name="preSetup"/>
+          <include name="getContenType"/>
         </methods>
-      </class> <!-- testng.AutomationWithTestNG1 -->
+      </class> <!-- base.GetAPIwithTestng -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
